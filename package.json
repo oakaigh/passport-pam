@@ -28,7 +28,7 @@
         "github": "https://github.com/oakaigh/passport-pam"
     },
     "files": [
-        "dist"
+        "dist/**/*"
     ],
     "main": "dist/lib/index.js",
     "types": "dist/lib/index.d.ts",
