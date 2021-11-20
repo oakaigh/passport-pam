@@ -1,6 +1,6 @@
 {
     "name": "passport-pam",
-    "version": "0.0.1-a",
+    "version": "0.1.0",
     "description": "Linux PAM authenticator for Passport",
     "keywords": [
         "linux",
