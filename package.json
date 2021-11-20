@@ -35,7 +35,7 @@
     "scripts": {
         "clean": "rm -rf dist",
         "build": "if [ \"${NODE_ENV}\" = 'production' ]; then tsc -p tsconfig.${NODE_ENV}.json; else tsc -p tsconfig.json; fi",
-        "publish": "npm run clean && npm run build --production"
+        "prepare": "npm run clean && npm run build"
     },
     "devDependencies": {
         "@types/express": "^4.17.13",
